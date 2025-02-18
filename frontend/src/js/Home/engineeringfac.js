@@ -12,6 +12,7 @@ import engineering7 from './172.png';
 import engineering8 from './182.png';
 import engineering9 from './192.png';
 import engineering10 from './202.png';
+import engineering11 from './162.png';
 
 
 
@@ -81,7 +82,7 @@ export function loadengineeringpage() {
                 <div class="card h-100">
                     <img src="${engineering1}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/chemical';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
                         <p class="card-text">Chemical Engineering</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -99,7 +100,7 @@ export function loadengineeringpage() {
                 <div class="card h-100">
                     <img src="${engineering2}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/lightcurrent';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
                         <p class="card-text">Electrical Engineering plus Artisan Training</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -117,7 +118,7 @@ export function loadengineeringpage() {
                 <div class="card h-100">
                     <img src="${engineering3}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/heavycurrent';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
                         <p class="card-text">Electrical Engineering</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -135,7 +136,7 @@ export function loadengineeringpage() {
                 <div class="card h-100">
                     <img src="${engineering4}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/mechanical';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
                         <p class="card-text">Mechanical Engineering</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -153,7 +154,7 @@ export function loadengineeringpage() {
                 <div class="card h-100">
                     <img src="${engineering5}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/civil';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">National N Diploma</h6>
                         <p class="card-text">Civil Engineering</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -175,12 +176,30 @@ export function loadengineeringpage() {
             Occupational Ceritificates
         </h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Artisan Occupational Certificate -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="${engineering11}" class="card-img-top" alt="Artisan Certificate" onclick="window.location.href='/artisan';" style="cursor: pointer;">
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <p class="card-text">Artisan Training</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div>
+                            <p class="mb-1"><i class="material-icons">schedule</i> 18 months</p>
+                            <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
+                            <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
+                        </div>
+                        <a href="/apply" class="apply-button">Apply</a>
+                    </div>
+                </div>
+            </div>
             <!-- Boiler Making -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="${engineering6}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/boiler';" style="cursor: pointer;">
+                    <img src="${engineering6}" class="card-img-top" alt="Boiler Making" onclick="window.location.href='/boiler';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
                         <p class="card-text">Boilermaker</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -189,16 +208,16 @@ export function loadengineeringpage() {
                             <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
                             <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
                         </div>
-                        <a href="/apply" class="apply-button">Apply</a>
+                        <a class="apply-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
             <!-- Fitter and Turner -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="${engineering7}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/fitter';" style="cursor: pointer;">
+                    <img src="${engineering7}" class="card-img-top" alt="Fitter and Turner" onclick="window.location.href='/fitter';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
                         <p class="card-text">Fitter and Turner Trade</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -207,16 +226,16 @@ export function loadengineeringpage() {
                             <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
                             <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
                         </div>
-                        <a href="/apply" class="apply-button">Apply</a>
+                        <a class="apply-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
             <!-- Motor Mechanics -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="${engineering8}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/motor';" style="cursor: pointer;">
+                    <img src="${engineering8}" class="card-img-top" alt="Motor Mechanics" onclick="window.location.href='/motor';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
                         <p class="card-text">Motor mechanics/ Diesel Mechanics</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -225,17 +244,16 @@ export function loadengineeringpage() {
                             <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
                             <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
                         </div>
-                        <a href="/apply" class="apply-button">Apply</a>
+                        <a class="apply-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
-
             <!-- Plumbing -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="${engineering9}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/plumbing';" style="cursor: pointer;">
+                    <img src="${engineering9}" class="card-img-top" alt="Plumbing" onclick="window.location.href='/plumbing';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
                         <p class="card-text">Plumbing</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -244,16 +262,16 @@ export function loadengineeringpage() {
                             <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
                             <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
                         </div>
-                        <a href="/apply" class="apply-button">Apply</a>
+                        <a class="apply-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
             <!-- Bricklaying and Plastering -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="${engineering10}" class="card-img-top" alt="Civil Engineering" onclick="window.location.href='/bricklaying';" style="cursor: pointer;">
+                    <img src="${engineering10}" class="card-img-top" alt="Bricklaying and Plastering" onclick="window.location.href='/bricklaying';" style="cursor: pointer;">
                     <div class="card-body">
-                        <h6 class="card-title" style="font-weight: bold; font-size: 0.8em; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
+                        <h6 class="card-title" style="font-weight: bold; fs-14; font-family: 'Lora', serif; margin-bottom: 0;">Occupational Certificate</h6>
                         <p class="card-text">Bricklaying and Plastering</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
@@ -262,10 +280,11 @@ export function loadengineeringpage() {
                             <p class="mb-1"><i class="material-icons">location_on</i> On Campus</p>
                             <p class="mb-0"><i class="material-icons">school</i> Full Time</p>
                         </div>
-                        <a href="/apply" class="apply-button">Apply</a>
+                        <a class="apply-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 

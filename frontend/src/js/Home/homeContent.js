@@ -238,7 +238,7 @@ mainElement.innerHTML += `
                             <div class="card-body text-center">
                                 <h5 class="card-title">Engineering Programs</h5>
                                 <p class="card-text">Courses in Electrical, Mechanical, Civil, and Chemical Engineering.</p>
-                                <button class="btn btn-primary " style="margin-top: 30px;" onclick="showContainer(2)">Explore Engineering</button>
+                                <button class="btn btn-primary " style="margin-top: 42px;" onclick="showContainer(2)">Explore Engineering</button>
                             </div>
                             </div>
                         </div>
@@ -250,7 +250,7 @@ mainElement.innerHTML += `
                             <div class="card-body text-center">
                                 <h5 class="card-title">IT Solutions</h5>
                                 <p class="card-text">Discover our IT solutions and earn occupational certificates to advance your skills!</p>
-                                <button class="btn btn-primary" style="margin-top: 30px;" onclick="showContainer(3)">Explore IT</button>
+                                <button class="btn btn-primary" style="margin-top: 20px;" onclick="showContainer(3)">Explore IT</button>
                             </div>
                             </div>
                         </div>
@@ -262,7 +262,7 @@ mainElement.innerHTML += `
                             <div class="card-body text-center">
                                 <h5 class="card-title">Practicals & Training</h5>
                                 <p class="card-text">Industry-relevant skills with our engineering training, bridging theory and practicals.</p>
-                                <button class="btn btn-primary" style="margin-top: 6px;" onclick="showContainer(5)">Explore Program</button>
+                                <button class="btn btn-primary" style="margin-top: 15px;" onclick="showContainer(5)">Explore Program</button>
                             </div>
                             </div>
                         </div>
@@ -274,7 +274,7 @@ mainElement.innerHTML += `
                             <div class="card-body text-center">
                                 <h5 class="card-title">Matric Re-write</h5>
                                 <p class="card-text">Helping individuals achieve their academic goals with a dedicated Matric Re-write program.</p>
-                                <button class="btn btn-primary" style="margin-top: 6px;" onclick="showContainer(4)">Explore Program</button>
+                                <button class="btn btn-primary" style="margin-top: 15px;" onclick="showContainer(4)">Explore Program</button>
                             </div>
                         </div>
                     </div>
@@ -292,7 +292,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image11}" class="card-img-top" alt="Chemical Engineering" width="200px" onclick="window.location.href='/chemical';" style="cursor: pointer;">
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             National N Diploma
                             </h6>
                             <h4><strong>Chemical Engineering</strong></h4>
@@ -308,7 +308,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image13}" class="card-img-top" alt="Electrical Engineering" width="200px" onclick="window.location.href='/heavycurrent';"style="cursor: pointer;" >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             National N Diploma
                             </h6>
                             <h4><strong>Electrical Engineering</strong></h4>
@@ -324,7 +324,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image14}" class="card-img-top" alt="Civil Engineering" width="200px"  onclick="window.location.href='/civil';" style="cursor: pointer;" >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             National N Diploma
                             </h6>
                             <h4><strong>Civil Engineering</strong></h4>
@@ -340,7 +340,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image12}" class="card-img-top" alt="Mechanical Engineering" width="200px" onclick="window.location.href='/mechanical';" style="cursor: pointer;"  >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             National N Diploma
                             </h6>
                             
@@ -377,7 +377,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image15}" class="card-img-top" alt="Cybersecurity Specialization" onclick="window.location.href='/cyber';" style="cursor: pointer;"  >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             Occupational Certificate
                             </h6>
                             <h4><strong>Cyber Security</strong></h4>
@@ -393,7 +393,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image16}" class="card-img-top" alt="Data Science Solutions Developer" onclick="window.location.href='/datasc';" style="cursor: pointer;"  >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             Occupational Certificate
                             </h6>
                             <h4><strong>Data Science</strong></h4>
@@ -409,7 +409,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image17}" class="card-img-top" alt="Full Stack Web and Software Developer" onclick="window.location.href='/fullstack';"  style="cursor: pointer;" >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;"> Occupational Certificate</h6>
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;"> Occupational Certificate</h6>
                             <h4><strong>Full Stack Web and Software Developer</strong></h4>
                             <div class="mt-auto">
                                 <a href="/fullstack" class="btn btn-primary mt-3">Learn more</a>
@@ -423,7 +423,7 @@ mainElement.innerHTML += `
                         <div class="card h-100 shadow d-flex flex-column">
                             <img src="${image18}" class="card-img-top" alt="IT Technical Support" onclick="window.location.href='/ittech';" style="cursor: pointer;"  >
                             <div class="card-body text-center d-flex flex-column">
-                            <h6 class="card-title fs-9" style="font-family: 'Lora', serif;">
+                            <h6 class="card-title fs-14" style="font-family: 'Lora', serif;">
                             Occupational Certificate
                             </h6>
                             <h4><strong>IT Technical Support </strong></h4>

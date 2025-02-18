@@ -1,5 +1,5 @@
 
-import tradeImage from './ho5.png';
+import tradeImage from './contact.png';
 
 export function loadContactUs() {
     const mainElement = document.querySelector('main');
@@ -28,7 +28,7 @@ export function loadContactUs() {
                     <div class="container py-5">
                         <div class="row justify-content-center">
                             <div class="col-lg-10 text-center">
-                                <h1 class="display-3 text-white animated slideInDown">Trade Programs</h1>
+                                <h1 class="display-3 text-white animated slideInDown">Contact Us</h1>
                             </div>
                         </div>
                     </div>
@@ -85,26 +85,65 @@ export function loadContactUs() {
             </form>
 
             <div class="container address">
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                    <h3>Our Address</h3>
-                    <div class="redline-address"></div>
-                    <p style="margin-bottom: 0;">1st Floor, De Villiers Building,</p>
-                        <p style="margin-bottom: 0;">27 Bureau Ln</p>
-                        <p style="margin-bottom: 1;">Pretoria Central</p>
-                        <p style="margin-bottom: 0;">Pretoria</p>
-                        <p style="margin-bottom: 1;">0002</p>
-                    <div class="phone-e">
-                        <p><span class="glyphicon glyphicon-envelope"> </span> info@highburycollege.co.za</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> 012 023 1932</p>
+                <div class="row d-flex align-items-center">
+                    <!-- Address Section -->
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <h3>Our Address</h3>
+                        <div class="redline-address"></div>
+                        <p><i class="fas fa-map-marker-alt"></i> 1st Floor, De Villiers Building</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 27 Bureau Ln, Pretoria Central</p>
+                        <p><i class="fas fa-city"></i> Pretoria, 0002</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> info@highburycollege.co.za</p>
+                            <p><i class="fas fa-phone"></i> 012 023 1932</p>
+                        </div>
+                    </div>
+
+                    <!-- Map Section with a Professional Border -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.915666599301!2d28.18703781550203!3d-25.74607858163322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9562f427d29b79%3A0xf3ddfbd8337605f9!2s27%20Bureau%20Ln%2C%20Pretoria%20Central%2C%20Pretoria%2C%200002%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1619175810225"
+                                width="100%" 
+                                height="350"
+                                frameborder="0" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.915666599301!2d28.18703781550203!3d-25.74607858163322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9562f427d29b79%3A0xf3ddfbd8337605f9!2s27%20Bureau%20Ln%2C%20Pretoria%20Central%2C%20Pretoria%2C%200002%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1619175810225" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
             </div>
+
+            <!-- Add some CSS for styling -->
+            <style>
+                .address p {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+
+                .contact-info p {
+                    margin: 10px 0;
+                }
+
+                .map-container {
+                    border: 3px solid #ccc; 
+                    border-radius: 12px;
+                    overflow: hidden;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                    padding: 5px;
+                }
+
+                .map-container iframe {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                i {
+                    margin-right: 8px;
+                    color: #d9534f;
+                }
+</style>
 
             <style>
             .touch h2 {

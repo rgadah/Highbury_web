@@ -43,6 +43,7 @@ import { renderPLCTrainingPage } from './Home/plc.js';
 import { renderInstallationRulesPreparationPage } from './Home/p1&2.js';
 import { renderSolarTrainingProgramPage } from './Home/solar.js';
 import { renderTradeTestPreparationAndTestingPage } from './Home/tradetest.js'
+import { renderMetalArtisanTrainingPage } from './Home/artisan.js'
 
 const routes = {
     '/': loadhomeContent, 
@@ -82,6 +83,7 @@ const routes = {
     '/p1&p2': renderInstallationRulesPreparationPage,
     '/solar': renderSolarTrainingProgramPage,
     '/tradetest': renderTradeTestPreparationAndTestingPage,
+    '/artisan': renderMetalArtisanTrainingPage,
 };
 
 

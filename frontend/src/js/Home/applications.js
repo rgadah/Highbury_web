@@ -246,11 +246,12 @@ if (appform) {
             "1": [
                 "National N Diploma: Chemical Engineering",
                 "Civil Engineering",
-                "National Diploma: Electrical Engineering / Heavy Current",
-                "Electrical Engineering / Light Current",
+                "National Diploma: Electrical Engineering",
+                "Electrical Engineering plus Artisan Training",
                 "National N Diploma: Mechanical Engineering"
             ],
             "2": [
+                "Artisan",
                 "Bricklaying and Plastering",
                 "Plumbing"
             ],
@@ -258,6 +259,7 @@ if (appform) {
                 "Motor Mechanics/Diesel Mechanics"
             ],
             "4": [
+                "Atrisan",
                 "Boilermaker",
                 "Fitter and Turner Trade"
             ],
