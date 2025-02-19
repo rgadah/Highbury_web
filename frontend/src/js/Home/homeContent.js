@@ -147,11 +147,18 @@ mainElement.innerHTML += `
 
                     .callback-form-container h3 {
                         color: white;
+                        text-shadow: 5px 5px 5px rgba(41, 27, 240, 0.9);
+                        font-weight: bold;
+                        font-family: 'Poppins', sans-serif;
+                        
                     }
 
                     .form-label {
                         font-weight: bold;
                         color: white;
+                        text-shadow: 3px 3px 5px rgba(41, 27, 240, 0.9);
+                        font-weight: bold;
+                        font-family: 'Poppins', sans-serif;
                     }
 
                     .form-control {

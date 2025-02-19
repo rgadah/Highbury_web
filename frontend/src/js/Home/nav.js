@@ -57,7 +57,7 @@ nav.innerHTML = `
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/apply">Apply</a></li>
             <li><a class="dropdown-item" href="/register">Register</a></li>
-            <li><a class="dropdown-item" href="/courses">Explore</a></li>
+            
           </ul>
         </li>
         
