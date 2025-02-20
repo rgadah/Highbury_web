@@ -29,7 +29,8 @@ SECRET_KEY = 'f2zx8*lb*em*-*b+!&1lpp&$_9q9kmkar+l3x90do@s(+sr&x7'  # Consider us
 DEBUG = True
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
-ALLOWED_HOSTS = ['127.0.0.1']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['127.0.0.1',
+                'highbury-webcms.vercel.app']  # Not recommended but useful in dev mode
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Application definition
@@ -71,6 +72,7 @@ CSRF_COOKIE_HTTPONLY = False
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8080',
     'http://127.0.0.1:8001',
+    'highbury-webcms.vercel.app',
 ]
 
 

@@ -1,24 +1,9 @@
-
-
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "manage.py",
-        "use": "@vercel/python",
-        "config": {
-          "maxLambdaSize": "15mb",
-          "includeFiles": [
-            "Highbury_web/**",
-            "staticfiles/**"
-          ]
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "manage.py"
-      }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    { "src": "CollegeManagement-Django/college_management_system/wsgi.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "CollegeManagement-Django/college_management_system/wsgi.py" }
+  ]
+}
