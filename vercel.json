@@ -1,9 +1,23 @@
 {
   "version": 2,
   "builds": [
-    { "src": "CollegeManagement-Django/college_management_system/wsgi.py", "use": "@vercel/python" }
+    {
+      "src": "CollegeManagement-Django/college_management_system/wsgi.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "CollegeManagement-Django/college_management_system/wsgi.py" }
-  ]
+    {
+      "src": "/(.*)",
+      "dest": "CollegeManagement-Django/college_management_system/wsgi.py"
+    }
+  ],
+  "build": {
+    "commands": [
+      "pip install --upgrade pip",
+      "pip install -r CollegeManagement-Django/requirements.txt",
+      "python CollegeManagement-Django/manage.py migrate || exit 0",
+      "python CollegeManagement-Django/manage.py collectstatic --noinput || exit 0"
+    ]
+  }
 }
