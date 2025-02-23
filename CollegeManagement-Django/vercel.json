@@ -11,13 +11,5 @@
       "src": "/(.*)",
       "dest": "CollegeManagement-Django/college_management_system/wsgi.py"
     }
-  ],
-  "build": {
-    "commands": [
-      "pip install --upgrade pip",
-      "pip install -r CollegeManagement-Django/requirements.txt",
-      "python CollegeManagement-Django/manage.py migrate || exit 0",
-      "python CollegeManagement-Django/manage.py collectstatic --noinput || exit 0"
-    ]
-  }
+  ]
 }
