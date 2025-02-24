@@ -3,6 +3,7 @@
   "rewrites": [
     { "source": "/css/(.*)", "destination": "/dist/css/$1" },
     { "source": "/js/(.*)", "destination": "/dist/js/$1" },
+    { "source": "/Home/(.*)", "destination": "/dist/js/Home/$1" },
     { "source": "/scss/(.*)", "destination": "/dist/scss/$1" },
     { "source": "/(.*)", "destination": "/dist/index.html" }
   ],
