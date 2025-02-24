@@ -1,12 +1,10 @@
 
-
 {
-    "routes": [
-      { "src": "/css/(.*)", "dest": "/src/css/$1" },
-      { "src": "/js/(.*)", "dest": "/src/js/$1" },
-      { "src": "/scss/(.*)", "dest": "/src/scss/$1" },
-      { "src": "/(.*)", "dest": "/src/index.html" }
-    ],
-    "cleanUrls": true
-  }
-  
+  "rewrites": [
+    { "source": "/css/(.*)", "destination": "/dist/css/$1" },
+    { "source": "/js/(.*)", "destination": "/dist/js/$1" },
+    { "source": "/scss/(.*)", "destination": "/dist/scss/$1" },
+    { "source": "/(.*)", "destination": "/dist/index.html" }
+  ],
+  "cleanUrls": true
+}
