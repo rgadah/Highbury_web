@@ -1,0 +1,12 @@
+
+
+{
+    "routes": [
+      { "src": "/css/(.*)", "dest": "/src/css/$1" },
+      { "src": "/js/(.*)", "dest": "/src/js/$1" },
+      { "src": "/scss/(.*)", "dest": "/src/scss/$1" },
+      { "src": "/(.*)", "dest": "/src/index.html" }
+    ],
+    "cleanUrls": true
+  }
+  
