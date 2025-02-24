@@ -1,0 +1,10 @@
+# .vercelignore
+static/
+node_modules/
+.git/
+.venv/
+.DS_Store
+*.pyc
+__pycache__/
+.env
+.gitmodules
