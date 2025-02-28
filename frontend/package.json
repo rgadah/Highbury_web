@@ -4,12 +4,12 @@
   "description": "A frontend project",
   "main": "src/js/main.js",
   "scripts": {
-  "prebuild": "chmod +x node_modules/.bin/webpack",
-  "start": "webpack serve --mode=development",
-  "build": "webpack --mode=production",
-  "watch": "webpack --watch",
-  "analyze": "webpack --mode=production --analyze"
-},
+    "prebuild": "shx chmod +x node_modules/.bin/webpack",
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch",
+    "analyze": "webpack --mode=production --analyze"
+  },
   "keywords": [],
   "author": "R.Gadah",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "prettier": "^3.4.2",
     "sass": "^1.83.0",
     "sass-loader": "^16.0.4",
+    "shx": "^0.3.4",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-bundle-analyzer": "^4.10.2",
