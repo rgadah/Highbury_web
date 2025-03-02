@@ -1,13 +1,16 @@
 
 {
-  "version":2,
+  "version": 2,
   "builds": [
-    { "src": "*.js", "use": "@vercel/node"}
+    { "src": "dist/index.html", "use": "@vercel/static" },
+    { "src": "dist/css/**", "use": "@vercel/static" },
+    { "src": "dist/js/**", "use": "@vercel/static" },
+    { "src": "dist/scss/**", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "**/*.js",
-      "destination": "/"
-    }
+    { "src": "/src/css/(.*)", "destination": "/css/$1" },
+    { "src": "/src/src/js/(.*)", "destination": "/js/$1" },
+    { "src": "/src/scss/(.*)", "destination": "/scss/$1" },
+    { "src": "/(.*)", "destination": "/index.html" }
   ]
 }
