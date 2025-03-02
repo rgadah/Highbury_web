@@ -8,9 +8,9 @@
     { "src": "dist/scss/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/src/css/(.*)", "destination": "/css/$1" },
-    { "src": "/src/src/js/(.*)", "destination": "/js/$1" },
-    { "src": "/src/scss/(.*)", "destination": "/scss/$1" },
+    { "src": "/css/(.*)", "destination": "/css/$1" },
+    { "src": "/src/js/(.*)", "destination": "/js/$1" },
+    { "src": "/scss/(.*)", "destination": "/scss/$1" },
     { "src": "/(.*)", "destination": "/index.html" }
   ]
 }
