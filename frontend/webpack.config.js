@@ -119,6 +119,7 @@ module.exports = {
 
 
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
@@ -144,9 +145,16 @@ module.exports = {
         },
     },
     plugins: [
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'src/js/Home', to: 'Home' },  // Copy all JS files
+                
+            ]
+        }),
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html',
+            inject: 'body',
         }),
         new MiniCssExtractPlugin({
             filename: '[name].css',

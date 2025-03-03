@@ -138,22 +138,19 @@ $(window).on("load resize", function () {
 document.addEventListener('DOMContentLoaded', () => {
     router(); // Initial route load
 
-    // Select ALL links, including those in the footer
     document.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', (event) => {
-            event.preventDefault();
             const targetPath = event.target.getAttribute('href');
-    
-            // Ensure targetPath is valid before checking `startsWith`
             if (targetPath && targetPath.startsWith('/')) {
+                event.preventDefault();
                 history.pushState({}, '', targetPath);
                 router();
-            } else if (targetPath) {
-                window.location.href = targetPath; // External links
             }
         });
     });
 });
+
+window.addEventListener('popstate', router);
 
 window.verifyEmail = function () {
     const email = document.getElementById('email').value;
