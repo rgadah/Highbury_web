@@ -72,7 +72,7 @@ CSRF_COOKIE_HTTPONLY = False
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8080',
     'http://127.0.0.1:8001',
-    'highbury-webmanage.vercel.app',
+    'https://highbury-webmanage.vercel.app',
 ]
 
 
