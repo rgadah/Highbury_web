@@ -30,7 +30,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
 ALLOWED_HOSTS = ['127.0.0.1',
-                'highbury-webmanage.vercel.app']  # Not recommended but useful in dev mode
+                'https://highbury-web-1.onrender.com']  # Not recommended but useful in dev mode
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Application definition
@@ -72,7 +72,7 @@ CSRF_COOKIE_HTTPONLY = False
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8080',
     'http://127.0.0.1:8001',
-    'https://highbury-webmanage.vercel.app',
+    'https://highbury-web-1.onrender.com',
 ]
 
 
