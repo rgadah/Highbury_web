@@ -9,7 +9,7 @@ from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import json
-
+from django.conf import settings
 from .EmailBackend import EmailBackend
 from .models import Attendance, Session, Subject
 from .models import NewsletterSubscriber
@@ -37,9 +37,11 @@ def doLogin(request, **kwargs):
         #Google recaptcha
         captcha_token = request.POST.get('g-recaptcha-response')
         captcha_url = "https://www.google.com/recaptcha/api/siteverify"
-        captcha_key = "settings.RECAPTCHA_SECRET_KEY"
+        captcha_key = settings.RECAPTCHA_SECRET_KEY
+        
         data = {
             'secret': captcha_key,
+            
             'response': captcha_token
         }
         # Make request
