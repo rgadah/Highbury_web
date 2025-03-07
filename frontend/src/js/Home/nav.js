@@ -29,7 +29,7 @@ nav.innerHTML = `
             <div
           class="btn btn-outline-success ms-2"
           style="cursor: pointer;"
-          onclick="window.open('http://127.0.0.1:8001/', '_blank')"
+          onclick="window.open('https://highbury-web-1.onrender.com/', '_blank')"
         >
           Login
         </div>
@@ -69,7 +69,7 @@ nav.innerHTML = `
         <div
           class="btn btn-outline-success ms-2"
           style="cursor: pointer;"
-          onclick="window.open('http://127.0.0.1:8001/', '_blank')"
+          onclick="window.open('https://highbury-web-1.onrender.com/', '_blank')"
         >
           Login
         </div>
