@@ -26,8 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'f2zx8*lb*em*-*b+!&1lpp&$_9q9kmkar+l3x90do@s(+sr&x7'  # Consider using your secret key
 
 
-RECAPTCHA_SECRET_KEY = '6LeDuusqAAAAAB4cnAu-KMaizjYbSyvzYpnFpA7E'
-
+RECAPTCHA_SECRET_KEY = '6Le0UewqAAAAAPVCTvsbE6Qjez3QcLN4aPIVx4BE'
+                        
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
